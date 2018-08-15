@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Box</title>
+    <!-- links to CSS and fonts here -->
+  </head>
+  <body>
+    <h1>Box</h1>
+    <div id="square" style="height:100px;width100px;background-color:#428ff4;position:absolute;right:500px">
+      <div id="close-square" style="height:20px;width:20px;background-color:#41aff4;color:white;">X<i class="fa fa-times"></i></div>
+      
+      <h2>Welcome to the site!</h2>
+    </div>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a orci facilisis, volutpat erat eu, feugiat justo. Pellentesque non semper nulla, sit amet vestibulum ligula. Curabitur scelerisque consectetur dui sed aliquet. Integer lobortis, eros vel ullamcorper posuere, diam nibh accumsan neque, in posuere leo urna sit amet erat. Aenean in sodales tellus. Phasellus vel placerat mauris. Vestibulum eu malesuada ex, rutrum rhoncus nisl.</p>
+      <p>Sed luctus mi cursus, mattis orci eu, tincidunt nisi. Integer metus risus, euismod eget facilisis vel, pellentesque molestie sapien. Pellentesque bibendum at metus quis porttitor. Sed maximus efficitur molestie. Vivamus porta a ante in faucibus. Sed vitae risus massa. Morbi non metus mauris. Etiam tortor felis, dapibus ut blandit quis, efficitur et enim. Nulla facilisi. Donec in commodo justo. Sed non lacus et augue elementum luctus a pulvinar elit. Donec aliquet in est sit amet facilisis. Duis sed massa efficitur, ornare felis ut, facilisis ligula. Sed hendrerit metus id cursus blandit. Nam bibendum malesuada commodo. Duis non risus sed dolor suscipit lacinia a et ligula.
+
+</p>
+      <p>Mauris id velit sit amet nisi euismod efficitur. Etiam risus nisi, ultricies id aliquet sit amet, euismod vitae eros. Nullam sodales laoreet lacus, eu tempor nunc pretium at. Donec id felis nec purus tincidunt efficitur a at arcu. Fusce sed purus ligula. Nulla quis dignissim purus, vel accumsan turpis. Nunc id placerat elit. Integer sed lacus ut odio maximus aliquet eu posuere lorem. Nunc laoreet, turpis eget efficitur auctor, quam nunc vulputate odio, vel sodales risus dui sodales odio. Cras quis elementum lectus. Etiam ultrices commodo odio, a sodales ipsum eleifend vel. Aliquam a quam in sapien luctus tempor quis vel odio. Integer eu metus eget lectus eleifend dignissim. Fusce in iaculis tellus. Nunc vel placerat metus, ut euismod ligula.
+
+</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+  $("#close-square").on("click", function() {
+      $("#square").fadeOut(2000);
+  });
+</script>
+  </body>
+</html>
